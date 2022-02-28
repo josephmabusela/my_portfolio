@@ -1,5 +1,5 @@
 import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/into/Intro";
+import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
