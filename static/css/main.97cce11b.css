@@ -1,2 +1,0 @@
-.topbar{background-color:#d3d3d3;height:70px;position:fixed;top:0;width:100%;z-index:1}.intro{background-color:#f08080}.portfolio{background-color:#e0ffff}.contact{background-color:#add8e6}.app{height:100vh}.sections{background-color:grey;height:calc(100vh - 70px);position:relative;-ms-scroll-snap-type:y mandatory;scroll-snap-type:y mandatory;top:70px;width:100%}.sections::-webkit-scrollbar{display:none}*{height:calc(100vh - 70px);scroll-snap-align:start;width:100vw}
-/*# sourceMappingURL=main.97cce11b.css.map*/
