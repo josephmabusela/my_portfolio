@@ -5,11 +5,10 @@ export default function Topbar() {
     <div className="topbar">
       <div className="wrapper">
         <div className="left">
-          <a href="#intro">Intro</a>
+          <a href="#intro" className="logo">logo.</a>
         </div>
-        <h1>Hello</h1>
         <div className="right">
-          <p>this is rights</p>
+          <p>this is right</p>
         </div>
       </div>
 
