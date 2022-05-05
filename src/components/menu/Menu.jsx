@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import "./menu.scss"
 
 export default function Menu({ menuOpen, setMenuOpen }) {
@@ -10,7 +9,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                 <a href="#intro">Home</a>
             </li>
             <li>
-                <a href="#porfolio">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
