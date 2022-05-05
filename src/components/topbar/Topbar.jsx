@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">logo.</a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+27 658 4915 39</span>
+            <span>+27 65 849 1539</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
