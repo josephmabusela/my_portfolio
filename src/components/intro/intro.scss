@@ -1,23 +1,41 @@
+@import "../../global.scss";
+
 .intro {
     background-color: white;
     display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left {
         flex: 0.5;
         overflow: hidden;
 
         .imgContainer {
-            width: 650px;
-            height: 650px;
+            width: 700px;
+            height: 700px;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-items: center;
             float: right;
+
+            @include mobile {
+                align-items: flex-start;
+                justify-content: center;
+                
+            }
         }
 
         img {
             height: 90%;
+
+            @include mobile{
+                height: 83%;
+                justify-content: center;
+            }
         }
     }
 
@@ -34,17 +52,30 @@
             flex-direction: column;
             justify-content: center;
             justify-items: center;
+
+            @include mobile {
+                padding-left: 0;
+                align-items: center;
+            }
         }
 
         h1 {
             font-size: 50px;
             margin: 30px 0;
+
+            @include mobile {
+                font-style: 40px;
+            }
         }
         h2 {
             font-size: 35px;
         }
         h3 {
             font-size: 30px;
+
+            @include mobile {
+                font-style: 20px;
+            }
 
             span {
                 font-size: inherit;
