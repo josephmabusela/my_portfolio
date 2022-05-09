@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import PortfolioList from "../portfolioList/PortfolioList"
 import "./portfolio.scss"
-import smartphone from './smartphone.jpg'
+import construction from './construction.jpg'
 import {
   webPortfolio,
   designPortfolio,
@@ -76,45 +76,45 @@ export default function Portfolio() {
       <div className="container">
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
         <div className="item">
           <img 
-            src={smartphone} 
+            src={construction} 
             alt="" 
           />
-          <h3>Banking App</h3>
+          <h3>Working on it</h3>
         </div>
       </div>
     </div>
